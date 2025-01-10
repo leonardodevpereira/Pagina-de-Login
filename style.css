@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(to right, #BF863F, #A67244, #73462D);
+    font-family:Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgba(57, 57, 57, 0.519);
+    backdrop-filter: blur(7px);
+    padding: 40px;
+    width: 320px;
+    border-width: 10px;
+    color: #ffffff;
+    border: 1px solid rgba(213, 212, 212, 0.558);
+}
+form > h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+form  a{
+    color:#592e15;
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-grupo{
+    display: flex;
+    align-items: center;
+}
+.form-grupo > label{
+    font-size: 14px;
+}
+.caixa-input{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background: #592E15;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.caixa-input[type='checkbox']{
+    width: auto;
+    margin-right: 10px;
+}
+button{
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background: #4b2712;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #2b160b;
+}
+button:active{
+    transform: scale(0.98);
+}
+.row{
+    margin-block: 5px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+/*.senha{
+    text-align: right; unico jeito que achei para deixar do lado direito
+}/*
