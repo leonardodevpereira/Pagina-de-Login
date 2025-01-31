@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php">
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" required>
+        <br>
+        <label for="isobrenome">Sobrenome</label>
+        <input type="text" name="Sobrenome" id="isobrenome" required>
+        <br>
+        <label for="isen">Senha</label>
+        <input type="password" name="sen" id="isen" required minlength="5" maxlength="10">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

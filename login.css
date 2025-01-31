@@ -72,6 +72,14 @@ button:active{
     display: flex;
     justify-content: space-between;
 }
+.formulario{
+    text-align: center;
+    color: #fff;
+}
+.formulario:hover{
+    color:#2b160b;
+}
 /*.senha{
     text-align: right; unico jeito que achei para deixar do lado direito
 }/*
+
